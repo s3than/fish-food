@@ -10,7 +10,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://amazon-eks.s3.us-west-2.amazonaws.com/" .. version .. "/2021-01-05/bin/linux/amd64/" .. name
+            url = "https://amazon-eks.s3.us-west-2.amazonaws.com/" .. version .. "/2021-01-05/bin/linux/amd64/" .. name,
             -- shasum of the release archive
             sha256 = "fe958eff955bea1499015b45dc53392a33f737630efd841cd574559cc0f41800",
             resources = {
